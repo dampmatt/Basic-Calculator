@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.display{
+    background-color: rgb(77, 68, 68);
+    width: 60%;
+    height: 20%;
+    color: whitesmoke;
+    text-align: right;
+    padding: 20px;;
+}
+
+.keys{
+    /* max-width: 60%; */
+    justify-content: center;
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    width: 30%;
+    height: 20%;
+    flex-grow: 1;
+}
+
